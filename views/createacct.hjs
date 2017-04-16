@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <title>IdeaDex</title>
+  </head>
+  <body class="container">
+    <div class="login">
+      <div>
+        <form action="/auth/signup" method="post">
+          <div>
+            <input type="text" name="username" placeholder="username" class="inputlogin">
+          </div>
+          <div>
+            <input type="password" name="password" placeholder="password" class="inputlogin">
+          </div>
+          <div>
+            <input type="password" name="pwverify" placeholder="password" class="inputlogin">
+          </div>
+          <p></p>
+          <input type="submit" value="Create Acct" class="createacct btn btn-default">
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</html>

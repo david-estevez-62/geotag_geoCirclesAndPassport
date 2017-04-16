@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.9.0/bootstrap-social.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <title>{{ title }}</title>
+  </head>
+  <body class="container">
+    <div class="login">
+      <div>
+        <form action="/auth/login" method="post">
+          <div>
+            <input type="text" name="username" placeholder="username" class="inputlogin">
+          </div>
+          <div>
+            <input type="password" name="password" placeholder="password" class="inputlogin">
+          </div>
+          <p>
+            <input type="submit" value="Sign in" placeholder="Sign in" class="loginbtn1 btn btn-default">
+          </p>
+        </form>
+      </div>
+      <p></p>
+      <div><a href="/createacct" class="signup btn btn-default">Sign Up</a></div>
+      <div class="forgotbtn"><a href="/changeUsername">Reset Username</a></div>
+      <div class="forgotbtn"><a href="/changePassword">Reset Password</a></div>
+      <div><a id="facebooksignin" class="btn btn-block btn-social btn-facebook">Sign in with Facebook<i class="fa fa-facebook"></i></a></div>
+      <div><a id="googlesignin" class="btn btn-block btn-social btn-google">Sign in with Google<i class="fa fa-google"></i></a></div>
+    </div>
+  </body>
+</html>

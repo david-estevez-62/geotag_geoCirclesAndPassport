@@ -1,0 +1,115 @@
+html { width:100%; height:100%; margin: 0; padding: 0; background-color: black; }
+body { width:100%; height:100%;margin: 0; padding: 0; background-color: black;}
+
+#map {
+  width: 99.9%;
+  height: 95%;
+  z-index:1;
+  position: absolute;
+  top:40px;
+}
+/*h2{
+  font-family: 'Cutive Mono';
+}*/
+header{
+  height:200px;
+  width:100%;
+  background-color: darkblue;
+}
+
+
+.login{
+  width:30.22%;
+  height:39.6%;
+  padding: 5px 0 0 20px;
+  /*position:relative;*/
+  border-radius: 5px;
+  margin:auto;
+  margin-top: 120px;
+}
+.btn-block{
+  margin-top: 10px;
+  width:305px;
+}
+.inputlogin {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width:305px;
+  height:35px;
+}
+
+.navbtn{
+  position:absolute;
+  right:0;
+}
+
+/*.btmbar {
+  background-color: rgb(5,21,26);
+  position: absolute;
+  top: 634px;
+  left:162px;
+  width:80%;
+  height:172px;
+  z-index:5;
+  opacity:0.5;
+}*/
+
+.btmbar {
+  background-color: rgb(5,21,26);
+  position: absolute;
+  /*top: 634px;*/
+  bottom:0px;
+  margin: auto;
+  width:92%;
+  height:172px;
+  z-index:5;
+  opacity:0.5;
+}
+
+.scanradius1{
+     height:275px;
+     width:470px;
+     position: absolute;
+      top: 450px;
+      left:570px;
+     border-radius: 470px 470px 0 0;
+     -moz-border-radius: 470px 470px 0 0;
+     -webkit-border-radius: 470px 470px 0 0;
+     /*background:green;*/
+     background-color: rgb(242,26,61);
+     border:3px solid rgb(242,26,61);
+     opacity: 0.2;
+     z-index: 3;
+     visibility: hidden;
+}
+.scanradius2{
+     height:485px;
+     width:820px;
+     position: absolute;
+      top: 270px;
+      left:394px;
+     border-radius: 820px 820px 0 0;
+     -moz-border-radius: 820px 820px 0 0;
+     -webkit-border-radius: 820px 820px 0 0;
+     /*background:green;*/
+     border:180px solid yellow;
+     border-bottom: none;
+     opacity: 0.2;
+     z-index: 4;
+     visibility: hidden;
+}
+
+/*@media (max-height: 2400px) {
+    #map{
+      width:1400px;
+      height:2250px;
+  z-index:1;
+  position: absolute;
+  top:150px;
+    }
+    header{
+  height:150px;
+  width:1400px;
+  background-color: #333536;
+}
+}*/
